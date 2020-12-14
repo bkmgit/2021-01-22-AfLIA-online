@@ -81,7 +81,8 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-<h2>REGISTRATION</h2>
+<h2>REGISTRATION OF INTEREST IN ATTENDING</h2>
+Email confirmation of will be sent witihn one business day.  Confirmation of acceptance if there is sufficient space by 8 January 2021.
 <form action="https://mailthis.to/CarpentriesJan2021Aflia" method="POST" encType="multipart/form-data">
   <label for="name">Name:</label><br>
   <input type="text" id="name" required name="name" value=""><br>
@@ -101,9 +102,6 @@ displayed if the 'eventbrite' field in the header is not set.
   <input type="hidden" name="_after" value="https://bkmgit.github.io/2021-01-22-AfLIA-online/">
   <!-- Honeypot (to catch comment spam bots) -->
   <input type="hidden" name="_honeypot" value="">
-  <!-- Apply a custom confirmation message on the second step -->
-  <input type="hidden" name="_confirmation" value="Thanks for your submission.">
-
   <br>
   <input type="submit" value="Submit">
 </form>
