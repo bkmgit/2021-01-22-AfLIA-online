@@ -82,19 +82,28 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 <h2>REGISTRATION</h2>
-<form action="https://www.formingo.co/submit/3e772265-ab1b-4e16-8fd2-a0c8e0f2a556" method="POST">
+<form action="https://mailthis.to/CarpentriesJan2021Aflia" method="POST" encType="multipart/form-data">
   <label for="name">Name:</label><br>
   <input type="text" id="name" required name="name" value=""><br>
   <label for="email">Email:</label><br>
   <input type="email" id="email" required name="email" value=""><br>
   <label for="tel">Telephone:</label><br>
-  <input type="tel" id="tel" name="tel" value=""><br>
+  <input type="text" id="tel" name="tel" value=""><br>
   <label for="institution">Library/Institution:</label><br>
   <input type="text" required id="institution" name="institution" value=""><br>
   <label for="country">Country:</label><br>
   <input type="text" id="country" required name="country" value=""><br>
   <label for="interest">Motivation for attending the workshop:</label><br>
   <input type="textarea" id="interest" required name="interest" rows="3" cols="50" value=""><br>
+  <!-- Custom email Subject -->
+  <input type="hidden" name="_subject" value="AfLIA workshop registration form submitted">
+  <!-- Redirect to a page after recaptcha -->
+  <input type="hidden" name="_after" value="https://bkmgit.github.io/2021-01-22-AfLIA-online/">
+  <!-- Honeypot (to catch comment spam bots) -->
+  <input type="hidden" name="_honeypot" value="">
+  <!-- Apply a custom confirmation message on the second step -->
+  <input type="hidden" name="_confirmation" value="Thanks for your submission.">
+
   <br>
   <input type="submit" value="Submit">
 </form>
