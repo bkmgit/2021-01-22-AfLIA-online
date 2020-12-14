@@ -83,7 +83,8 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 <h2>REGISTRATION OF INTEREST IN ATTENDING</h2>
 Email confirmation of will be sent witihn one business day.  Confirmation of acceptance if there is sufficient space by 8 January 2021.
-<form action="https://mailthis.to/CarpentriesJan2021Aflia" method="POST" encType="multipart/form-data">
+<!--<form action="https://mailthis.to/CarpentriesJan2021Aflia" method="POST" encType="multipart/form-data">-->
+<form action="https://formcarry.com/s/NZ-OhnMyhv" method="POST" accept-charset="UTF-8" >
   <label for="name">Name:</label><br>
   <input type="text" id="name" required name="name" value=""><br>
   <label for="email">Email:</label><br>
@@ -97,11 +98,12 @@ Email confirmation of will be sent witihn one business day.  Confirmation of acc
   <label for="interest">Motivation for attending the workshop:</label><br>
   <input type="textarea" id="interest" required name="interest" rows="3" cols="50" value=""><br>
   <!-- Custom email Subject -->
-  <input type="hidden" name="_subject" value="AfLIA workshop registration form submitted">
+ <!-- <input type="hidden" name="_subject" value="AfLIA workshop registration form submitted">-->
   <!-- Redirect to a page after recaptcha -->
-  <input type="hidden" name="_after" value="https://bkmgit.github.io/2021-01-22-AfLIA-online/">
+<!--  <input type="hidden" name="_after" value="https://bkmgit.github.io/2021-01-22-AfLIA-online/">-->
   <!-- Honeypot (to catch comment spam bots) -->
-  <input type="hidden" name="_honeypot" value="">
+<!--  <input type="hidden" name="_honeypot" value="">-->
+  <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
   <br>
   <input type="submit" value="Submit">
 </form>
