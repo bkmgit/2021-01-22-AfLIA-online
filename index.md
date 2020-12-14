@@ -81,8 +81,24 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-
-
+REGISTRATION
+<form action="https://www.formingo.co/submit/3e772265-ab1b-4e16-8fd2-a0c8e0f2a556"
+      method="POST">
+    <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value=""><br>
+  <label for="tel">Telephone:</label><br>
+  <input type="tel" id="tel" name="tel" value=""><br>
+  <label for="institution">Library/Institution:</label><br>
+  <input type="text" id="institution" name="institution" value=""><br>
+  <label for="country">Country:</label><br>
+  <input type="text" id="country" name="country" value=""><br>
+  <label for="interest">Interest in the workshop:</label><br>
+  <input type="text" id="interest" name="interest" value=""><br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
 <h2 id="general">General Information</h2>
 
 {% comment %}
