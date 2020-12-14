@@ -81,8 +81,8 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-<h2>REGISTRATION OF INTEREST IN ATTENDING</h2>
-Email confirmation of will be sent witihn one business day.  Confirmation of acceptance if there is sufficient space by 8 January 2021.
+<h2>Registration of Interest in Attending</h2>
+Email confirmation of will be sent witihn one business day. Please register interest by 4 January 2021. Confirmation of acceptance if there is sufficient space by 8 January 2021.
 <!--<form action="https://mailthis.to/CarpentriesJan2021Aflia" method="POST" encType="multipart/form-data">-->
 <form action="https://formcarry.com/s/NZ-OhnMyhv" method="POST" accept-charset="UTF-8" >
   <label for="name">Name:</label><br>
@@ -97,12 +97,6 @@ Email confirmation of will be sent witihn one business day.  Confirmation of acc
   <input type="text" id="country" required name="country" value=""><br>
   <label for="interest">Motivation for attending the workshop:</label><br>
   <input type="textarea" id="interest" required name="interest" rows="3" cols="50" value=""><br>
-  <!-- Custom email Subject -->
- <!-- <input type="hidden" name="_subject" value="AfLIA workshop registration form submitted">-->
-  <!-- Redirect to a page after recaptcha -->
-<!--  <input type="hidden" name="_after" value="https://bkmgit.github.io/2021-01-22-AfLIA-online/">-->
-  <!-- Honeypot (to catch comment spam bots) -->
-<!--  <input type="hidden" name="_honeypot" value="">-->
   <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
   <br>
   <input type="submit" value="Submit">
@@ -331,14 +325,13 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% endif %}
 
 
-{% comment %}
+
 SURVEYS - DO NOT EDIT SURVEY LINKS
 
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endcomment %}
 <hr/>
 
 
